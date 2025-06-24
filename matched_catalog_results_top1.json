@@ -1,0 +1,223 @@
+[
+    {
+        "cropped_label": "rack15_Cable_0",
+        "category": "Cable",
+        "matches": [
+            {
+                "category": "Cable",
+                "name": "Cat6A UTP Slim Ethernet Network Booted Cable 28AWG Green",
+                "description": "Green PVC unshielded RJ45 Male to RJ45 Male cable, 28 AWG, 0.5FT to 50FT.",
+                "similarity_score": 0.8253295421600342,
+                "image_path": "/static/segmented_outputs/Cable/rack15_Cable_0.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Cable_11",
+        "category": "Cable",
+        "matches": [
+            {
+                "category": "Cable",
+                "name": "Fiber Optic Cable Single Mode LC to LC OS2 9 by 125 Duplex Yellow with Flexible Boots",
+                "description": "Yellow LC Male to LC Male cable, 2M to 10M.",
+                "similarity_score": 0.765921413898468,
+                "image_path": "/static/segmented_outputs/Cable/rack15_Cable_11.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Cable_24",
+        "category": "Cable",
+        "matches": [
+            {
+                "category": "Cable",
+                "name": "15 Amp IEC320 C14 to NEMA 5-15R-520 Y Splitter PDU Power Cord",
+                "description": "Black IEC320 C14 to cable, 14 AWG, 1m.",
+                "similarity_score": 0.8244931697845459,
+                "image_path": "/static/segmented_outputs/Cable/rack15_Cable_24.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Cable_6",
+        "category": "Cable",
+        "matches": [
+            {
+                "category": "Cable",
+                "name": "Cat6A 24AWG Snagless Ethernet Network Patch Cable - Black",
+                "description": "Black PVC unshielded RJ45 Male to RJ45 Male cable, 24 AWG, stranded, 0.5FT to 150FT.",
+                "similarity_score": 0.7797409892082214,
+                "image_path": "/static/segmented_outputs/Cable/rack15_Cable_6.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_fuse_1",
+        "category": "Rack",
+        "matches": [
+            {
+                "category": "Rack",
+                "name": "NRS1 800 Series",
+                "description": "*Conforms to DIN 41494 or Equivalent EIA / ISO / EN / CEA Standard. *Adjustable mounting depth. *4 No Adjustable, 19\u201d verticals with Punched 10 mm Square Hole and Universal 12.7mm-15.875mm-15.875mm alternating hole pattern offers greater mounting flexibility, maximizes usable mounting space. *Universal 44.45MM Pitch Holes For DIN Standard Racks. *State-of-the-art manufacturing methods provide the ",
+                "similarity_score": 0.8614610433578491,
+                "image_path": "/static/segmented_outputs/Rack/rack15_fuse_1.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_10",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "7050TX-72Q",
+                "description": "48 x 10G-T 6x QSFP+: 6x40GbE, 72x10GbE, 48x100M/1G/10GBASE-T ports.",
+                "similarity_score": 0.88271164894104,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_10.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_13",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "C9200L-48P-4G",
+                "description": "48x 10M/100M/1G Ethernet ports, with fixed 4x 1G uplink ports",
+                "similarity_score": 0.8813402056694031,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_13.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_14",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "EX4400-48T",
+                "description": "48-port 10/100/1000BASE-T + 550 W AC PS (DAC for Virtual Chassis ordered separately)",
+                "similarity_score": 0.92074316740036,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_14.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_16",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "C9300L-48T-4X",
+                "description": "48 port Data 4x 10G/1G fixed uplinks",
+                "similarity_score": 0.9465075731277466,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_16.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_17",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "S5731-H24T4XC ",
+                "description": "24 x 10/100/1000Base-T Ethernet ports, 4 x 10GE SFP+ ports One extended slot 1+1 power backup Forwarding performance: 125 Mpps Switching capacity: 288 Gbps/672 Gbps",
+                "similarity_score": 0.8502547740936279,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_17.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_19",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "S5751-L24P2X-RUA",
+                "description": "24 x 10/100/1000 Base-T ports(PoE+), 2 x 100M/1/2.5/10GE SFP+ ports Built-in AC PoE+ Forwarding performance: 66 Mpps Switching capacity: 98 Gbps",
+                "similarity_score": 0.8772000074386597,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_19.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_20",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "IE-4010-16S12P",
+                "description": "Total ports:28 SFP Uplinks:4 FE/GE SFP fiber ports (S):12 FE/GE Copper PoE/PoE+ Ports^2(P):12 FE/GE",
+                "similarity_score": 0.9050720930099488,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_20.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_21",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "6885-LL-56F ",
+                "description": "48*25GE SFP28/10GE SFP+",
+                "similarity_score": 0.9276561737060548,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_21.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_22",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "Nexus 9316D-GX",
+                "description": "1RU, 16p 400G QSFP-DD 6.4 Tbps bandwidth Up to 64p 100G in a compact 1RU form factor",
+                "similarity_score": 0.8939186930656433,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_22.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_5",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "DGS-2000-52MP",
+                "description": " 48 x 10/100/1000BASE-T PoE ports\n4 x 100/1000 Mbps GbE/SFP combo ports",
+                "similarity_score": 0.8945025205612183,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_5.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_7",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "MSB7700-ES2R",
+                "description": "36 QSFP28 ports, 2 Power Supplies (AC)",
+                "similarity_score": 0.9211753606796264,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_7.jpg"
+            }
+        ]
+    },
+    {
+        "cropped_label": "rack15_Switch_8",
+        "category": "Switch",
+        "matches": [
+            {
+                "category": "Switch",
+                "name": "C9500-24Y4C",
+                "description": "24 x 1G/10G/25G SFP28 Ports (Fiber) 4 x 100G QSFP28 Ports (Fiber)",
+                "similarity_score": 0.9355008602142334,
+                "image_path": "/static/segmented_outputs/Switch/rack15_Switch_8.jpg"
+            }
+        ]
+    }
+]

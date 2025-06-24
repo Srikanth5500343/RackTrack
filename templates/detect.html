@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block title %}Auto Detection{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="elegant-card">
+        <h1 class="text-center mb-4">Automated Component Detection</h1>
+        <p class="text-muted text-center mb-4">Process your uploaded image to automatically detect and categorize components</p>
+        
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div id="image-preview-container" class="text-center mb-4">
+                    <div class="preview-area">
+                        <img id="uploaded-image-preview" class="img-fluid rounded" alt="Your uploaded image">
+                        <div id="no-image-message" class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle me-2"></i>No image uploaded yet. Please upload an image from the home page first.
+                        </div>
+                    </div>
+                    <div id="image-name" class="text-muted mt-2"></div>
+                </div>
+                
+                <div id="error-message" class="error-message"></div>
+                
+                <form id="process-form" method="post" enctype="multipart/form-data" class="text-center">
+                    <input type="hidden" name="use_uploaded" value="true">
+                    <button id="process-btn" class="btn btn-primary btn-lg" type="submit" disabled>
+                        <i class="bi bi-lightning me-2"></i>Process Image
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-icon">
+                        <i class="bi bi-upload"></i>
+                    </div>
+                    <h4 class="mt-3">1. Upload Image</h4>
+                    <p class="text-muted">Select or drag an image of your network equipment</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-icon">
+                        <i class="bi bi-magic"></i>
+                    </div>
+                    <h4 class="mt-3">2. Auto Processing</h4>
+                    <p class="text-muted">Our AI detects and segments components automatically</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-icon">
+                        <i class="bi bi-clipboard-check"></i>
+                    </div>
+                    <h4 class="mt-3">3. View Results</h4>
+                    <p class="text-muted">See detected components and matching products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    .process-icon {
+        width: 80px;
+        height: 80px;
+        background: rgba(99, 102, 241, 0.1);
+        color: #6366f1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin: 0 auto;
+        transition: all 0.3s ease;
+    }
+    
+    .process-step:hover .process-icon {
+        transform: scale(1.1);
+        background: rgba(99, 102, 241, 0.2);
+    }
+    
+    .process-step {
+        padding: 1.5rem;
+        transition: all 0.3s ease;
+    }
+    
+    .process-step:hover {
+        transform: translateY(-5px);
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const uploadedImagePreview = document.getElementById('uploaded-image-preview');
+        const noImageMessage = document.getElementById('no-image-message');
+        const imageName = document.getElementById('image-name');
+        const processBtn = document.getElementById('process-btn');
+        
+        // Check for previously uploaded image
+        const uploadedImage = getLastUploadedImage();
+        
+        if (uploadedImage && uploadedImage.dataUrl) {
+            // Display the uploaded image
+            uploadedImagePreview.src = uploadedImage.dataUrl;
+            uploadedImagePreview.style.display = 'block';
+            noImageMessage.style.display = 'none';
+            
+            // Enable the process button
+            processBtn.disabled = false;
+            
+            if (uploadedImage.fileName) {
+                imageName.textContent = 'Using: ' + uploadedImage.fileName;
+            }
+        } else {
+            // No image uploaded yet
+            uploadedImagePreview.style.display = 'none';
+            noImageMessage.style.display = 'block';
+            
+            // Keep process button disabled
+            processBtn.disabled = true;
+        }
+    });
+</script>
+{% endblock %}
