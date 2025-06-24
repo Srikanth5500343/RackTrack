@@ -1,0 +1,11 @@
+flask
+pandas
+tqdm
+torch
+sentence-transformers
+faiss-cpu
+Pillow
+clip-anytorch
+ultralytics
+opencv-python
+gunicorn
